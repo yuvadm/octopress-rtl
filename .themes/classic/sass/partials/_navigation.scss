@@ -40,14 +40,14 @@ body > nav {
     font-size: .9em;
     ul {
       @include horizontal-list(0);
-      float: left;
+      float: right;
       display: block;
       padding-top: .15em;
     }
     ul.subscription {
-      margin-left: .8em;
-      float: right;
-      li:last-child a { padding-right: 0; }
+      margin-right: .8em;
+      float: left;
+      li:last-child a { padding-left: 0; }
     }
     ul li {
       margin: 0;
